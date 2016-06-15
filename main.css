@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans', serif;
+  color: #083451;
+}
+#topHeader {
+  background: url('http://i.imgur.com/KPlqgNY.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 -90px;
+  width: 1418px;
+  height: 578px;
+  margin: -10px 0 0 -10px;
+  padding-right: 14px;
+}
+.headerLogo {
+}
