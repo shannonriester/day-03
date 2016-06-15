@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
     <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8" />
+
+      <!--Google Fonts: Oswald (for headings) and Open Sans (for most copy)  --><link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!--Font icons for comments, read later, and "share this post" -->
+    <script src="https://use.fontawesome.com/bb2d6ea9a1.js"></script>
+
     <title>SURF &amp; PADDLE CO.BLOG</title>
   </head>
 
@@ -42,9 +48,24 @@
         <p>Gochujang XOXO normcore next level before they sold out. Church-key umami scenester shabby chic. Tousled offal williamsburg waistcoat wayfarers, iPhone YOLO small batch irony tote bag biodiesel forage cray. Scenester farm-to-table 8-bit, neutra roof party keffiyeh flannel.</p>
         <p>Asymmetrical artisan ugh portland celiac lomo butcher, knausgaard hella seitan poutine. Ramps seitan mlkshk, slow-carb drinking vinegar artisan blog vinyl. Bushwick gentrify truffaut pork belly direct trade meh. Everyday carry wolf pitchfork celiac, heirloom mixtape pickled direct trade. </p>
         <ul class="blogButtons">
-          <li><a href=""><img src="" alt="comment bubble image" />Read Comments</a></li>
-          <li><a href=""><img src="" alt="cloud upload image" />Read Later</a></li>
-          <li><a href=""><img src="" alt="forward button image" />Share This Post</a></li>
+          <li>
+            <a href="">
+              <i class="fa fa-comment" aria-hidden="true"></i>
+              Read Comments
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+              Read Later
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-share-square-o" aria-hidden="true"></i>
+              Share This Post
+            </a>
+          </li>
         </ul>
       </article>
 
@@ -72,14 +93,34 @@
 
       <section>
         <h2>MOST POPULAR POSTS</h2>
-        <!--Make the ul and li for the popular posts have the background images in CSS. Use the bullet points to list the titles  -->
+        <!--Make the ul and li for the popular posts have the background images in CSS. Use the bullet points to list the titles
+
+        The links must become block elements so that the contained titles can be changed so that the whole "image" is clickable as a link
+      -->
         <ul class="ulPopularPosts">
-          <li class="liPopPosts"><a href="" class="PostTitleText">POST TITLE</a></li>
-          <li class="liPopPosts"><a href="" class="PostTitleText">ANOTHER COOL POST</a></li>
-          <li class="liPopPosts"><a href="" class="PostTitleText">HERE'S ANOTHER LONGER POST TITLE</a></li>
-          <li class="liPopPosts"><a href="" class="PostTitleText">OH COOL, A POST!</a></li>
+          <li>
+            <a href="">
+              <h3 class="h3PostTitle">POST TITLE</h3>
+            </a>
+          </li>
+          <li class="liPopPosts">
+            <a href="">
+              <h3 class="h3PostTitle">ANOTHER COOL POST</h3>
+            </a>
+          </li>
+          <li class="liPopPosts">
+            <a href="" class="PostTitleText">
+              <h3>HERE'S ANOTHER LONGER POST TITLE</h3>
+            </a>
+          </li>
+          <li class="liPopPosts">
+            <a href="" class="PostTitleText">
+              <h3 class="h3PostTitle">OH COOL, A POST!</h3>
+            </a>
+          </li>
         </ul>
       </section>
+
     </main>
 
     <footer>
