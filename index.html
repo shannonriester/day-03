@@ -8,7 +8,7 @@
     <!--CDN link below  -->
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
 
-      <!--Google Fonts: Oswald (for headings) and Open Sans (for most copy)  --><link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+      <!--Google Fonts: Oswald (for headings) and Open Sans (for most copy)  --><link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet" type="text/css">
 
     <!--Font icons for comments, read later, and "share this post" -->
     <script src="https://use.fontawesome.com/bb2d6ea9a1.js"></script>
@@ -16,23 +16,31 @@
     <title>SURF &amp; PADDLE CO.BLOG</title>
   </head>
 
-  <header id="topHeader">
-    <a href="http://index.html">
-      <img src="http://imgur.com/jqhpjnE" alt="Surf and Paddle icon" class="headerLogo" />
-      SURF &amp; PADDLE CO.BLOG
-    </a>
+  <header class="topHeader">
+
+    <div>
+      <a href="http://index.html" class="headerHomeLink">
+        <img src="https://dl.dropboxusercontent.com/u/19411356/day-03/black-wave-circle.png" alt="Surf and Paddle icon" class="headerLogo" />
+      </a>
+      <a href="http://index.html" class="headerHomeLink">
+        <p class="headerHomeLinkText">SURF &amp; PADDLE CO.BLOG</p>
+      </a>
+    </div>
 
     <nav>
-      <ul>
-        <li>
-          <a href="">
-            About
+      <ul class="ulHeaderNav">
+        <li class="liHeaderNav">
+          <a href="http://index.html" class="headerHomeLink">
+            ABOUT
           </a>
         </li>
-        <li><a href="">
-          <input type="search" name="search" placeholder="" />
-          <img src="" alt="search image icon" />
-        </a></li>
+        <li class="liHeaderNav">
+          <a href="http://index.html/search" class="headerHomeLink">
+            SEARCH
+            <!--magnifying glass (search icon) needs to be flipped to look like its mirror image in CSS  -->
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+      </li>
       </ul>
   </nav>
 
