@@ -87,6 +87,12 @@ h1 {
   font-weight: 400;
 }
 /*- - - - - -Main article starts here- - - - - - */
+.heading2 {
+  display: inline-block;
+  width: 53%;
+  margin-left: 188px;
+}
+
 h2 {
   font-family: 'Oswald';
   font-size: 76px;
@@ -94,11 +100,12 @@ h2 {
   word-spacing: -6px;
   letter-spacing: .3px;
   width: 800px;
-  margin: 71px 0 0 185px;
-  line-height: 86px;
+  margin-bottom: 0;
+  line-height: 87px;
 }
 
 /*all profile images will have blue gradient as default look*/
+
 .profilePic {
   background:
   linear-gradient(
@@ -111,7 +118,7 @@ h2 {
     width: 26px;
     border-radius: 50%;
     float: left;
-    margin: 8px 0 0 193px;
+    /*margin: 8px 0 0 193px;*/
 }
 
 .publishInfo {
@@ -126,9 +133,52 @@ h2 {
 }
 
 article {
-  width: 750px;
-font-size: 20px;
-margin: 40px 0 0 188px;
-letter-spacing: -1.0px;
-line-height: 31px;
+  width: 53%;
+  font-size: 19px;
+  margin-left: 188px;
+  letter-spacing: -1.0px;
+  line-height: 34px;
+  float: left;
+}
+
+blockquote {
+  color: #106DB3;
+  font-family: 'Open Sans';
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: -2px;
+  padding-top: 6px;
+  margin-left: 25px;
+}
+
+.ulBlogButtons {
+  list-style-type: none;
+  margin-left: -43px;
+}
+
+.liBlogButtons {
+  background: #A3B3BF;
+  display: inline-block;
+  width: 153px;
+  height: 36px;
+  font-size: 15px;
+  margin: 0px 13px;
+  padding-right: 20px;
+}
+
+.iconButtons {
+  width: 35px;
+  height: 30px;
+}
+
+.iconLinks {
+  color: #FFF;
+  text-decoration: none;
+  padding-left: 14px;
+}
+
+/*- - - -Aside CSS starts here- - - - */
+aside {
+  float: right;
+  width: 30%;
 }
