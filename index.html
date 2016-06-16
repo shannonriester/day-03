@@ -19,44 +19,46 @@
   <header class="topHeader">
 
     <div>
-      <a href="http://index.html" class="headerHomeLink">
+      <a href="http://index.html" class="heaerLogoLink">
         <img src="https://dl.dropboxusercontent.com/u/19411356/day-03/black-wave-circle.png" alt="Surf and Paddle icon" class="headerLogo" />
       </a>
-      <a href="http://index.html" class="headerHomeLink">
-        <p class="headerHomeLinkText">SURF &amp; PADDLE CO.BLOG</p>
+      <a href="http://index.html" class="headerLogoLink">
+        <p class="headerAboutLinkText">SURF &amp; PADDLE CO.BLOG</p>
       </a>
     </div>
 
     <nav>
       <ul class="ulHeaderNav">
         <li class="liHeaderNav">
-          <a href="http://index.html" class="headerHomeLink">
+          <a href="http://index.html" class="headerAboutLink">
             ABOUT
           </a>
         </li>
         <li class="liHeaderNav">
-          <a href="http://index.html/search" class="headerHomeLink">
+          <a href="http://index.html/search" class="headerAboutLink">
             SEARCH
             <!--magnifying glass (search icon) needs to be flipped to look like its mirror image in CSS  -->
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-search fa-flip-horizontal searchIcon" aria-hidden="true"><br></i>
           </a>
       </li>
       </ul>
-  </nav>
+    </nav>
 
     <section class="hero">
       <h1>SURF &amp; PADDLE CO.</h1>
-      <h4>An Iron Yard Academy Project Est. Fall 2013</h4>
+      <p>An Ironyard Academy Project Est. Fall 2013</p>
     </section>
 </header>
 
     <main>
       <header class="heading2">
-        <h2>A FANTASTIC ENGAGING HEADING GOES HERE</h2>
-        <ul>
-          <li><img src="" alt="blog profile picture icon" />Anne Marie</li>
-          <li> on <input type="date" /> <input type="time" /></li>
-        </ul>
+        <h2>A FANTASTIC ENGAGING HEADLINE GOES HERE</h2>
+          <div class="profilePic"></div>
+          <p class="publishInfo">
+              <a href="http://www.surfandpaddle.com/AnneMarie">
+                Anne Marie</a>
+                on <span>Monday Oct. 7th 9:22pm</span>
+          </p>
       </header>
 
       <article>
@@ -91,7 +93,7 @@
 
       <aside>
         <div class="socialMediaInfo">
-          <img src="" alt="blog profile picture icon" />
+          <img src="https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg" alt="Smaller blog profile picture icon" class="profilePic smallerProPic"/>
           <h5>Anne Marie</h5>
           <ul class="socialMediaLinks">
             <li><a href="http://www.twitter.com">Twitter</a></li>
@@ -113,7 +115,12 @@
 
       <section>
         <h2>MOST POPULAR POSTS</h2>
-        <!--Make the ul and li for the popular posts have the background images in CSS. Use the bullet points to list the titles
+        <!--Make the ?ul and li? for the popular posts have the background images in CSS. Use the bullet points to list the titles
+
+        -float left
+        -use %width and max-width
+        -min width will move images down one at a time...
+        -to center them as the page shrinks: MEDIA QUERIES
 
         The links must become block elements so that the contained titles can be changed so that the whole "image" is clickable as a link
       -->

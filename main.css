@@ -1,49 +1,56 @@
 body {
   font-family: 'Open Sans', serif;
   color: #083451;
-}
-.topHeader {
-  background: url('http://i.imgur.com/KPlqgNY.jpg');
-  background-repeat: no-repeat;
-  background-position: 0 -90px;
   width: 1418px;
-  height: 578px;
-  margin: -10px 0 0 -10px;
-  padding-right: 14px;
+}
+/*linear-gradient creates opaque, blue, top-layer*/
+.topHeader {
+  background: linear-gradient( rgba(73,155,234,0.55), rgba(20,104,174,0.6) ), url('http://i.imgur.com/KPlqgNY.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+width: 1548px;
+height: 630px;
+margin: -9px 0 0 -10px;
+padding-right: 14px;
 }
 
 .headerLogo {
-    height: 51px;
-    margin: 13px 0 0 156px;
+    height: 54px;
+    float: left;
+    opacity: 0.5;
+    margin: 13px 0 0 171px;
 }
 
-.headerHomeLink {
+.headerLogoLink {
   text-decoration: none;
   color: #083451;
 }
 
-.headerHomeLinkText {
-  margin: -44px 0 0 220px;
-  font-size: 1.1em;
+.headerAboutLink {
+  text-decoration: none;
+  color: #083451;
 }
 
-/*flips search icon png*/
-.fa-search{
-  border:0;
-  display: inline-block;
-  transform:scale(-1,1);
-  -webkit-transform:scale(-1,1);
-  -moz-transform:scale(-1,1);
-  -o-transform:scale(-1,1)
+.headerAboutLinkText {
+  float: left;
+  margin: 25px 0 0 15px;
+  font-size: 1.21em;
+  font-weight: 800;
 }
 
-.fa {
-  padding-right: 5px;
+.searchIcon {
+  float: right;
+    margin: 4px 13px 0px -4px;
 }
 
 .ulHeaderNav{
-  margin: -29px 0 0 1049px;
+  float: right;
   font-family: 'Oswald';
+  margin: 21px 173px 0 0;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: .5px;
+  word-spacing: 3px;
 }
 
 .liHeaderNav {
@@ -54,12 +61,74 @@ body {
   font-size: 1.2em;
 }
 
+.searchIcon {
+
+}
+
 .hero {
     display: inline-block;
-    margin: 79px 0 0 216px;
 }
 
 h1 {
-  font-size: 6.7rem;
+  font-size: 7.7rem;
   color: #FFF;
+  font-weight: 500;
+  text-align: center;
+  margin: 177px 0 0 6px;
+  word-spacing: -8px;
+  letter-spacing: -1.5px;
+}
+
+.hero p {
+  text-align: center;
+  margin: -21px 0 0 -2px;
+  word-spacing: .5px;
+  font-size: 1.13rem;
+  font-weight: 400;
+}
+/*- - - - - -Main article starts here- - - - - - */
+h2 {
+  font-family: 'Oswald';
+  font-size: 76px;
+  font-weight: 500;
+  word-spacing: -6px;
+  letter-spacing: .3px;
+  width: 800px;
+  margin: 71px 0 0 185px;
+  line-height: 86px;
+}
+
+/*all profile images will have blue gradient as default look*/
+.profilePic {
+  background:
+  linear-gradient(
+      rgba(73,155,234,0.55),
+      rgba(20,104,174,0.6)
+    ),
+    url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    float: left;
+    margin: 8px 0 0 193px;
+}
+
+.publishInfo {
+  color: #A7B6C2;
+}
+
+.publishInfo a {
+  color: #146FB3;
+  text-decoration: none;
+  margin: 0 11px 0 8px;
+  font-size: 16px;
+}
+
+article {
+  width: 750px;
+font-size: 20px;
+margin: 40px 0 0 188px;
+letter-spacing: -1.0px;
+line-height: 31px;
 }
