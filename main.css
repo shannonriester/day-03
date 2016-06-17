@@ -1,302 +1,284 @@
 body {
-  font-family: 'Open Sans', serif;
-  color: #083451;
+    font-family: 'Open Sans', serif;
+    color: #083451;
 }
 
 /*linear-gradient creates opaque, blue, top-layer*/
+
 .topHeader {
-  background: linear-gradient( rgba(73,155,234,0.55), rgba(20,104,174,0.6) ), url('http://i.imgur.com/KPlqgNY.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 109%;
-  height: 630px;
-  margin: -9px 0 0 -10px;
-  padding-right: 14px;
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 109%;
+    height: 630px;
+    margin: -9px 0 0 -10px;
+    padding-right: 14px;
 }
-
 .headerNav {
-  margin: 0 0 0 -2%;
+    margin: 0 0 0 -2%;
 }
-
 .headerLogo {
-  height: 3.3rem;
-  float: left;
-  opacity: 0.5;
-  margin: .9% 2.4% 0% 11%;
+    height: 3.3rem;
+    float: left;
+    opacity: 0.5;
+    margin: .9% 2.4% 0% 11%;
 }
-
 .headerLogoLink {
-  text-decoration: none;
-  color: #083451;
+    text-decoration: none;
+    color: #083451;
 }
-
 .headerAboutLink {
-  text-decoration: none;
-  color: #083451;
+    text-decoration: none;
+    color: #083451;
 }
-
 .headerAboutLinkText {
-  float: left;
-  margin: 1.6% 0 0 -1.5%;
-  font-size: 1.23em;
-  font-weight: 800;
+    float: left;
+    margin: 1.6% 0 0 -1.5%;
+    font-size: 1.23em;
+    font-weight: 800;
 }
-
 .searchIcon {
-  float: right;
-  margin: 2% 0.5% 0% 5%;
+    float: right;
+    margin: 2% 0.5% 0% 5%;
 }
-
-.ulHeaderNav{
-  float: right;
-  font-family: 'Oswald';
-  margin: 1.4% 12% 0 0;
-  font-size: 1.1em;
-  font-weight: 400;
-  letter-spacing: .5px;
-  word-spacing: 3px;
+.ulHeaderNav {
+    float: right;
+    font-family: 'Oswald';
+    margin: 1.4% 12% 0 0;
+    font-size: 1.1em;
+    font-weight: 400;
+    letter-spacing: .5px;
+    word-spacing: 3px;
 }
-
 .liHeaderNav {
-  list-style-type: none;
-  display: inline;
-  padding: 0 5px;
-  margin-right: 2.2%;
-  font-size: 1.2em;
+    list-style-type: none;
+    display: inline;
+    padding: 0 5px;
+    margin-right: 2.2%;
+    font-size: 1.2em;
 }
-
-.searchIcon {
-
-}
-
+.searchIcon {}
 .hero {
     display: inline-block;
     margin: 4.8% 0 0 -2%;
     text-align: center;
 }
-
 h1 {
-  font-size: 7.7rem;
-  color: #FFF;
-  font-weight: 500;
-  word-spacing: -8px;
-  letter-spacing: -1.5px;
-  margin-top: 9%;
+    font-size: 7.7rem;
+    color: #FFF;
+    font-weight: 500;
+    word-spacing: -8px;
+    letter-spacing: -1.5px;
+    margin-top: 9%;
 }
-
 .hero p {
-  margin-top: -11%;
-  word-spacing: .5px;
-  font-size: 1.13rem;
-  font-weight: 400;
+    margin-top: -11%;
+    word-spacing: .5px;
+    font-size: 1.13rem;
+    font-weight: 400;
 }
 
 /*- - - - - -Main article starts here- - - - - - */
-main {
-  width: 67%;
-  display: inline-block;
-}
 
+main {
+    width: 67%;
+    display: inline-block;
+}
 article {
-  font-size: 1.1em;
+    font-size: 1.1em;
     margin-left: 19%;
     letter-spacing: .01em;
     line-height: 1.5em;
     float: left;
 }
-
 .heading2 {
-  display: inline-block;
-  /*margin-left: 188px;*/
+    display: inline-block;
+    /*margin-left: 188px;*/
 }
-
 .articleHeading {
-  font-family: 'Oswald';
-  font-size: 4.8rem;
-  font-weight: 500;
-  word-spacing: -0.1em;
-  line-height: 5.4rem;
-  margin: 9% 0 0 0%;
-  letter-spacing: 0.01em;
+    font-family: 'Oswald';
+    font-size: 4.8rem;
+    font-weight: 500;
+    word-spacing: -0.1em;
+    line-height: 5.4rem;
+    margin: 9% 0 0 0%;
+    letter-spacing: 0.01em;
 }
 
 /*all profile images will have blue gradient as default look*/
+
 .publishInfo {
-  color: #A7B6C2;
-  display: inline-block;
-  margin: 0% 0 0 1.1%;
-  font-size: 1rem;
+    color: #A7B6C2;
+    display: inline-block;
+    margin: 0% 0 0 1.1%;
+    font-size: 1rem;
 }
-
 .publishInfo a {
-  color: #146FB3;
-  text-decoration: none;
-  margin: 0% 2% 0% 2%;
-  font-size: 1rem;
+    color: #146FB3;
+    text-decoration: none;
+    margin: 0% 2% 0% 2%;
+    font-size: 1rem;
 }
-
 .profilePic {
-  background:
-  linear-gradient(
-      rgba(73,155,234,0.55),
-      rgba(20,104,174,0.6)
-    ),
-    url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
     background-repeat: no-repeat;
     height: 27px;
     width: 27px;
     border-radius: 50%;
     margin-top: 1%;
 }
-
 .articleHeading {
-  margin: 5% 1% 0% 1%;
-  line-height: 1.67em;
+    margin: 5% 1% 0% 1%;
+    line-height: 1.67em;
 }
-
 blockquote {
-  color: #106DB3;
-  font-family: 'Open Sans';
-  font-size: 2.3rem;
-  font-weight: 100;
-  letter-spacing: -0.09rem;
-  word-spacing: -0.5rem;
-  margin: 6.3% 0% 0% 3.5%;
+    color: #106DB3;
+    font-family: 'Open Sans';
+    font-size: 2.3rem;
+    font-weight: 100;
+    letter-spacing: -0.09rem;
+    word-spacing: -0.5rem;
+    margin: 6.3% 0% 0% 3.5%;
 }
-
 .ulBlogButtons {
-  list-style-type: none;
-  margin: 4.5% 0 0 -4%;
+    list-style-type: none;
+    margin: 4.5% 0 0 -4%;
+    padding-bottom: 9.5%;
 }
-
 .liBlogButtons {
-  background: #A3B3BF;
-display: inline-block;
-/* width: 153px; */
-height: 36px;
-margin: 1% .5% 0% 0%;
-padding-right: 1%;
+    background: #A3B3BF;
+    display: inline-block;
+    /* width: 153px; */
+    height: 36px;
+    margin: 1% .5% 0% 0%;
+    padding-right: 1%;
 }
-
 .iconButtons {
-  width: 35px;
-  height: 30px;
-  color: white;
-  background-color: #5e686f;
-  padding: 0.6em;
-  height: 15px;
-  margin-left: -2%;
-  text-align: center;
+    width: 35px;
+    height: 30px;
+    color: white;
+    background-color: #5e686f;
+    padding: 0.6em;
+    height: 15px;
+    margin-left: -2%;
+    text-align: center;
 }
-
 .iconLinks {
-  color: #FFF;
-  text-decoration: none;
-  padding: 0% 0% 0 2%;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0% 0% 0 2%;
 }
 
 /*- - - -Aside CSS starts here- - - - */
-aside {
-  float: right;
-  width: 32%;
-  text-align: center;
-}
 
+aside {
+    float: right;
+    width: 32%;
+    text-align: center;
+}
 .bigProfilePic {
-  background:
-  linear-gradient(
-      rgba(73,155,234,0.55),
-      rgba(20,104,174,0.6)
-    ),
-    url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
     background-repeat: no-repeat;
     height: 23%;
     width: 23%;
     border-radius: 50%;
     margin-top: 21%;
 }
-
 h5 {
-  font-size: 20px;
-  margin-top: 1%;
+    font-size: 20px;
+    margin-top: 1%;
 }
-
 .socialMediaInfo {
-  color: #106DB3;
-  padding: 0;
+    color: #106DB3;
+    padding: 0;
 }
-
 .socialMediaLinks {
-  list-style-type: none;
-  margin: -7% 8% 14% 0;
+    list-style-type: none;
+    margin: -7% 8% 14% 0;
 }
-
 .socialMediaLinks li {
-  display: inline-block;
-  padding: 0 2%;
+    display: inline-block;
+    padding: 0 2%;
 }
-
 .socialMediaLinks a {
-  color: #A7B6C2;
-  text-decoration: none;
-  font-size: 16px;
+    color: #A7B6C2;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 /*- - - - - - - -Ad and Image Section - - - - - */
+
 figure {
-  font-family: 'Open Sans';
-  color: #A7B6C2;
+    font-family: 'Open Sans';
+    color: #A7B6C2;
 }
-
 .imgAd {
-  height: 360px;
-  width: 332px;
+    height: 360px;
+    width: 332px;
 }
-
 figcaption a {
-  text-decoration: underline;
-  color:#A7B6C2;
-  padding: 1% 0 0 62%;
+    text-decoration: underline;
+    color: #A7B6C2;
+    padding: 1% 0 0 62%;
 }
-
 .adSidebar {
-  text-align: left;
-  width: 74%;
-  margin: 0 auto;
-  margin-top: 12%;
+    text-align: left;
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 12%;
 }
-
 .h3Sidebar {
-  font-family: 'Oswald';
-  color: #1771B5;
-  font-size: 22px;
-  margin-bottom: -3%;
+    font-family: 'Oswald';
+    color: #1771B5;
+    font-size: 22px;
+    margin-bottom: -3%;
 }
-
-
 
 /*Popular Posts Section*/
 
 .popularPosts {
-  text-align: center;
+    border-top: solid #E8ECEF 1px;
+    margin: 0 auto;
 }
-
 .popularHeading {
-  font-family: 'Oswald';
-  font-size: 5em;
-  font-weight: 100;
+    font-family: 'Oswald';
+    font-size: 4.78em;
+    font-weight: 100;
+    padding: 0;
+    margin: 2% 0 0 8%;
 }
-
 .ulPopularPosts {
-  list-style-type: none;
+    list-style-type: none;
 }
-
 .liPopPosts {
-  display: inline-block;
-  text-decoration: none;
+    display: inline;
+}
+.apostTitleText {
+    text-decoration: none;
+    color: #083452;
 }
 
-.postTitleText {
-  text-decoration: none;
-  color: #083452;
+/*Popular Post image section*/
+
+.post1 {
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/action-kitten.jpeg');
+    background-repeat: no-repeat;
+}
+.post2 {
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/Beer%20Sampling.jpg');
+    background-repeat: no-repeat;
+}
+.post3 {
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/wine-liquor-400x400.jpg');
+    background-repeat: no-repeat;
+}
+.post4 {
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/nick-400x400.jpg');
+    background-repeat: no-repeat;
+}
+
+/*- - - - - - - Footer Section - - - - - - - - -*/
+
+.TIYlogo {
+    width: 10%;
 }
