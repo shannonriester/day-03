@@ -1,24 +1,28 @@
 body {
   font-family: 'Open Sans', serif;
   color: #083451;
-  width: 1418px;
 }
+
 /*linear-gradient creates opaque, blue, top-layer*/
 .topHeader {
   background: linear-gradient( rgba(73,155,234,0.55), rgba(20,104,174,0.6) ), url('http://i.imgur.com/KPlqgNY.jpg');
-background-repeat: no-repeat;
-background-size: 100%;
-width: 1548px;
-height: 630px;
-margin: -9px 0 0 -10px;
-padding-right: 14px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 109%;
+  height: 630px;
+  margin: -9px 0 0 -10px;
+  padding-right: 14px;
+}
+
+.headerNav {
+  margin: 0 0 0 -2%;
 }
 
 .headerLogo {
-    height: 54px;
-    float: left;
-    opacity: 0.5;
-    margin: 13px 0 0 171px;
+  height: 3.3rem;
+  float: left;
+  opacity: 0.5;
+  margin: .9% 2.4% 0% 11%;
 }
 
 .headerLogoLink {
@@ -33,20 +37,20 @@ padding-right: 14px;
 
 .headerAboutLinkText {
   float: left;
-  margin: 25px 0 0 15px;
-  font-size: 1.21em;
+  margin: 1.6% 0 0 -1.5%;
+  font-size: 1.23em;
   font-weight: 800;
 }
 
 .searchIcon {
   float: right;
-    margin: 4px 13px 0px -4px;
+  margin: 2% 0.5% 0% 5%;
 }
 
 .ulHeaderNav{
   float: right;
   font-family: 'Oswald';
-  margin: 21px 173px 0 0;
+  margin: 1.4% 12% 0 0;
   font-size: 1.1em;
   font-weight: 400;
   letter-spacing: .5px;
@@ -57,7 +61,7 @@ padding-right: 14px;
   list-style-type: none;
   display: inline;
   padding: 0 5px;
-  margin: 0 0px;
+  margin-right: 2.2%;
   font-size: 1.2em;
 }
 
@@ -67,41 +71,54 @@ padding-right: 14px;
 
 .hero {
     display: inline-block;
+    margin: 4.8% 0 0 -2%;
+    text-align: center;
 }
 
 h1 {
   font-size: 7.7rem;
   color: #FFF;
   font-weight: 500;
-  text-align: center;
-  margin: 177px 0 0 6px;
   word-spacing: -8px;
   letter-spacing: -1.5px;
+  margin-top: 9%;
 }
 
 .hero p {
-  text-align: center;
-  margin: -21px 0 0 -2px;
+  margin-top: -11%;
   word-spacing: .5px;
   font-size: 1.13rem;
   font-weight: 400;
 }
+
 /*- - - - - -Main article starts here- - - - - - */
-.heading2 {
+main {
+  width: 67%;
   display: inline-block;
-  width: 53%;
-  margin-left: 188px;
 }
 
-h2 {
+article {
+  font-size: 1.1em;
+    margin-left: 19%;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    float: left;
+}
+
+.heading2 {
+  display: inline-block;
+  /*margin-left: 188px;*/
+}
+
+.articleHeading {
   font-family: 'Oswald';
   font-size: 76px;
   font-weight: 500;
   word-spacing: -6px;
   letter-spacing: .3px;
-  width: 800px;
-  margin-bottom: 0;
+  /*width: 752px;*/
   line-height: 87px;
+  float: left;
 }
 
 /*all profile images will have blue gradient as default look*/
@@ -117,12 +134,11 @@ h2 {
     height: 26px;
     width: 26px;
     border-radius: 50%;
-    float: left;
-    /*margin: 8px 0 0 193px;*/
 }
 
 .publishInfo {
   color: #A7B6C2;
+  display: inline-block;
 }
 
 .publishInfo a {
@@ -130,15 +146,6 @@ h2 {
   text-decoration: none;
   margin: 0 11px 0 8px;
   font-size: 16px;
-}
-
-article {
-  width: 53%;
-  font-size: 19px;
-  margin-left: 188px;
-  letter-spacing: -1.0px;
-  line-height: 34px;
-  float: left;
 }
 
 blockquote {
@@ -169,6 +176,11 @@ blockquote {
 .iconButtons {
   width: 35px;
   height: 30px;
+  color: white;
+  background-color: #5e686f;
+  padding: 7px;
+  height: 15px;
+  margin-left: -2px;
 }
 
 .iconLinks {
@@ -180,5 +192,81 @@ blockquote {
 /*- - - -Aside CSS starts here- - - - */
 aside {
   float: right;
-  width: 30%;
+  width: 32%;
+  text-align: center;
 }
+
+.bigProfilePic {
+  background:
+  linear-gradient(
+      rgba(73,155,234,0.55),
+      rgba(20,104,174,0.6)
+    ),
+    url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
+    background-repeat: no-repeat;
+    height: 23%;
+    width: 23%;
+    border-radius: 50%;
+    margin-top: 21%;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.socialMediaInfo {
+  color: #106DB3;
+  padding: 0;
+}
+
+.socialMediaLinks {
+  list-style-type: none;
+  margin: -7% 8% 14% 0;
+}
+
+.socialMediaLinks li {
+  display: inline-block;
+  padding: 0 2%;
+}
+
+.socialMediaLinks a {
+  color: #A7B6C2;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*- - - - - - - -Ad and Image Section - - - - - */
+figure {
+  font-family: 'Open Sans';
+  color: #A7B6C2;
+}
+
+.imgAd {
+  height: 360px;
+  width: 332px;
+}
+
+figcaption a {
+  text-decoration: underline;
+  color:#A7B6C2;
+  padding: 1% 0 0 62%;
+}
+
+.adSidebar {
+  text-align: left;
+  width: 74%;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+
+.h3Sidebar {
+  font-family: 'Oswald';
+  color: #1771B5;
+  font-size: 22px;
+  margin-bottom: -3%;
+}
+
+
+
+/*Popular Posts Section*/
