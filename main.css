@@ -7,12 +7,11 @@ body {
 
 .topHeader {
     background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 109%;
-    height: 630px;
+    background-size: 108vw;
+    width: 100vw;
+    height: 43vw;
     margin: -9px 0 0 -10px;
-    padding-right: 14px;
+    padding-right: 8vw;
 }
 .headerNav {
     margin: 0 0 0 -2%;
@@ -149,19 +148,18 @@ blockquote {
     background: #A3B3BF;
     display: inline-block;
     /* width: 153px; */
-    height: 36px;
+    height: 2.5vw;
     margin: 1% .5% 0% 0%;
     padding-right: 1%;
 }
 .iconButtons {
-    width: 35px;
-    height: 30px;
-    color: white;
-    background-color: #5e686f;
-    padding: 0.6em;
-    height: 15px;
-    margin-left: -2%;
-    text-align: center;
+  width: 1.3vw;
+  color: white;
+  background-color: #5e686f;
+  padding: 0.6em;
+  height: 1.5vw;
+  margin-left: -2%;
+  text-align: center;
 }
 .iconLinks {
     color: #FFF;
@@ -213,8 +211,9 @@ figure {
     color: #A7B6C2;
 }
 .imgAd {
-    height: 360px;
-    width: 332px;
+    height: 25vw;
+    width: 23.2vw;
+    margin: 2% 3% 0% 0%;
 }
 figcaption a {
     text-decoration: underline;
@@ -238,30 +237,47 @@ figcaption a {
 
 .popularPosts {
     border-top: solid #E8ECEF 1px;
-    margin: 0 auto;
+    width: 100%;
 }
+
 .popularHeading {
     font-family: 'Oswald';
     font-size: 4.78em;
     font-weight: 100;
-    padding: 0;
     margin: 2% 0 0 8%;
+    text-align: center;
 }
 .ulPopularPosts {
-    list-style-type: none;
+  list-style-type: none;
+  margin: 1% 0% 0% -4%;
+  height: 28vw;
 }
+
+.ulPopularPosts ::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
 .liPopPosts {
-    display: inline;
+  float: left;
+  width: 25vw;
+  height: 27.5vw;
+  margin: 2% 0% 0% 0%;
 }
-.apostTitleText {
-    text-decoration: none;
-    color: #083452;
+
+.aPostTitleText {
+  text-decoration: none;
+  color: #083452;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 900;
 }
 
 /*Popular Post image section*/
 
 .post1 {
-    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/action-kitten.jpeg');
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/kitten-400x400.jpeg');
     background-repeat: no-repeat;
 }
 .post2 {
@@ -269,7 +285,7 @@ figcaption a {
     background-repeat: no-repeat;
 }
 .post3 {
-    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/wine-liquor-400x400.jpg');
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/bar-400x400.jpg');
     background-repeat: no-repeat;
 }
 .post4 {
