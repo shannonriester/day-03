@@ -112,16 +112,28 @@ article {
 
 .articleHeading {
   font-family: 'Oswald';
-  font-size: 76px;
+  font-size: 4.8rem;
   font-weight: 500;
-  word-spacing: -6px;
-  letter-spacing: .3px;
-  /*width: 752px;*/
-  line-height: 87px;
-  float: left;
+  word-spacing: -0.1em;
+  line-height: 5.4rem;
+  margin: 9% 0 0 0%;
+  letter-spacing: 0.01em;
 }
 
 /*all profile images will have blue gradient as default look*/
+.publishInfo {
+  color: #A7B6C2;
+  display: inline-block;
+  margin: 0% 0 0 1.1%;
+  font-size: 1rem;
+}
+
+.publishInfo a {
+  color: #146FB3;
+  text-decoration: none;
+  margin: 0% 2% 0% 2%;
+  font-size: 1rem;
+}
 
 .profilePic {
   background:
@@ -131,46 +143,39 @@ article {
     ),
     url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
     background-repeat: no-repeat;
-    height: 26px;
-    width: 26px;
+    height: 27px;
+    width: 27px;
     border-radius: 50%;
+    margin-top: 1%;
 }
 
-.publishInfo {
-  color: #A7B6C2;
-  display: inline-block;
-}
-
-.publishInfo a {
-  color: #146FB3;
-  text-decoration: none;
-  margin: 0 11px 0 8px;
-  font-size: 16px;
+.articleHeading {
+  margin: 5% 1% 0% 1%;
+  line-height: 1.67em;
 }
 
 blockquote {
   color: #106DB3;
   font-family: 'Open Sans';
-  font-size: 36px;
+  font-size: 2.3rem;
   font-weight: 100;
-  letter-spacing: -2px;
-  padding-top: 6px;
-  margin-left: 25px;
+  letter-spacing: -0.09rem;
+  word-spacing: -0.5rem;
+  margin: 6.3% 0% 0% 3.5%;
 }
 
 .ulBlogButtons {
   list-style-type: none;
-  margin-left: -43px;
+  margin: 4.5% 0 0 -4%;
 }
 
 .liBlogButtons {
   background: #A3B3BF;
-  display: inline-block;
-  width: 153px;
-  height: 36px;
-  font-size: 15px;
-  margin: 0px 13px;
-  padding-right: 20px;
+display: inline-block;
+/* width: 153px; */
+height: 36px;
+margin: 1% .5% 0% 0%;
+padding-right: 1%;
 }
 
 .iconButtons {
@@ -178,15 +183,16 @@ blockquote {
   height: 30px;
   color: white;
   background-color: #5e686f;
-  padding: 7px;
+  padding: 0.6em;
   height: 15px;
-  margin-left: -2px;
+  margin-left: -2%;
+  text-align: center;
 }
 
 .iconLinks {
   color: #FFF;
   text-decoration: none;
-  padding-left: 14px;
+  padding: 0% 0% 0 2%;
 }
 
 /*- - - -Aside CSS starts here- - - - */
@@ -270,3 +276,27 @@ figcaption a {
 
 
 /*Popular Posts Section*/
+
+.popularPosts {
+  text-align: center;
+}
+
+.popularHeading {
+  font-family: 'Oswald';
+  font-size: 5em;
+  font-weight: 100;
+}
+
+.ulPopularPosts {
+  list-style-type: none;
+}
+
+.liPopPosts {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.postTitleText {
+  text-decoration: none;
+  color: #083452;
+}
