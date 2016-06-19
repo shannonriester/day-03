@@ -6,21 +6,21 @@ body {
 /*linear-gradient creates opaque, blue, top-layer*/
 
 .topHeader {
-    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
-    background-size: 108vw;
-    width: 100vw;
-    height: 43vw;
-    margin: -9px 0 0 -10px;
-    padding-right: 8vw;
+  background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
+  background-size: 108vw;
+  width: 82.2vw;
+  height: 36.3vw;
+  margin: -9px 0 0 -10px;
+  padding-right: 8vw;
 }
 .headerNav {
     margin: 0 0 0 -2%;
 }
 .headerLogo {
-    height: 3.3rem;
-    float: left;
-    opacity: 0.5;
-    margin: .9% 2.4% 0% 11%;
+  width: 3.2vw;
+  float: left;
+  opacity: 0.5;
+  margin: 1% 3% 0% 12%;
 }
 .headerLogoLink {
     text-decoration: none;
@@ -31,23 +31,22 @@ body {
     color: #083451;
 }
 .headerAboutLinkText {
-    float: left;
-    margin: 1.6% 0 0 -1.5%;
-    font-size: 1.23em;
-    font-weight: 800;
+  float: left;
+  margin: 1.9% 0 0 -2%;
+  font-size: 1rem;
+  font-weight: 800;
+
 }
 .searchIcon {
     float: right;
     margin: 2% 0.5% 0% 5%;
 }
 .ulHeaderNav {
-    float: right;
-    font-family: 'Oswald';
-    margin: 1.4% 12% 0 0;
-    font-size: 1.1em;
-    font-weight: 400;
-    letter-spacing: .5px;
-    word-spacing: 3px;
+  float: right;
+  font-family: 'Oswald';
+  margin: 1.5% 4.5% 0 0;
+  font-size: .9rem;
+  font-weight: 800;
 }
 .liHeaderNav {
     list-style-type: none;
@@ -63,82 +62,75 @@ body {
     text-align: center;
 }
 h1 {
-    font-size: 7.7rem;
-    color: #FFF;
-    font-weight: 500;
-    word-spacing: -8px;
-    letter-spacing: -1.5px;
-    margin-top: 9%;
+  font-size: 6.5rem;
+  color: #FFF;
+  font-weight: 500;
+  word-spacing: -8px;
+  letter-spacing: -1.5px;
+  margin: 16% 0% 9% -8%;
 }
 .hero p {
-    margin-top: -11%;
-    word-spacing: .5px;
-    font-size: 1.13rem;
-    font-weight: 400;
+  margin: -11.1% 8% 0 0%;
+  word-spacing: .5px;
+  font-weight: 400;
+  font-size: .95rem;
 }
 
 /*- - - - - -Main article starts here- - - - - - */
 
 main {
-    width: 67%;
+    width: 50%;
     display: inline-block;
 }
 article {
-    font-size: 1.1em;
-    margin-left: 19%;
-    letter-spacing: .01em;
-    line-height: 1.5em;
-    float: left;
+  margin-left: 22.2%;
+  line-height: 1.8rem;
+  width: 43vw;
 }
 .heading2 {
     display: inline-block;
     /*margin-left: 188px;*/
 }
 .articleHeading {
-    font-family: 'Oswald';
-    font-size: 4.8rem;
-    font-weight: 500;
-    word-spacing: -0.1em;
-    line-height: 5.4rem;
-    margin: 9% 0 0 0%;
-    letter-spacing: 0.01em;
+  font-family: 'Oswald';
+  margin: 12% 0% 0% 0.5%;
+  line-height: 4.4rem;
+  font-size: 3.8rem;
+  word-spacing: -0.2rem;
+}
+
+blockquote {
+  color: #106DB3;
+font-family: 'Open Sans';
+font-size: 1.8rem;
+font-weight: 100;
+/* letter-spacing: -0.04rem; */
+word-spacing: -0.64rem;
+margin: 10.5% 0 0 3.5%;
 }
 
 /*all profile images will have blue gradient as default look*/
 
 .publishInfo {
-    color: #A7B6C2;
-    display: inline-block;
-    margin: 0% 0 0 1.1%;
-    font-size: 1rem;
+  color: #A7B6C2;
+  display: inline-block;
+  margin: .5% 0% 0 .5%;
 }
 .publishInfo a {
-    color: #146FB3;
-    text-decoration: none;
-    margin: 0% 2% 0% 2%;
-    font-size: 1rem;
+  color: #146FB3;
+  text-decoration: none;
+  margin: 0% 2% 0% 1%;
+  font-size: .8rem;
+  text-decoration: underline;
 }
 .profilePic {
-    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
-    background-repeat: no-repeat;
-    height: 27px;
-    width: 27px;
-    border-radius: 50%;
-    margin-top: 1%;
+  background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
+  background-repeat: no-repeat;
+  height: 1.5vw;
+  width: 1.5vw;
+  border-radius: 50%;
 }
-.articleHeading {
-    margin: 5% 1% 0% 1%;
-    line-height: 1.67em;
-}
-blockquote {
-    color: #106DB3;
-    font-family: 'Open Sans';
-    font-size: 2.3rem;
-    font-weight: 100;
-    letter-spacing: -0.09rem;
-    word-spacing: -0.5rem;
-    margin: 6.3% 0% 0% 3.5%;
-}
+
 .ulBlogButtons {
     list-style-type: none;
     margin: 4.5% 0 0 -4%;
@@ -249,7 +241,7 @@ figcaption a {
 }
 .ulPopularPosts {
   list-style-type: none;
-  margin: 1% 0% 0% -4%;
+  margin: 0vw 0vw 0vw -3.23vw;
   height: 28vw;
 }
 
@@ -264,6 +256,8 @@ figcaption a {
   width: 25vw;
   height: 27.5vw;
   margin: 2% 0% 0% 0%;
+  font-family: 'Oswald';
+  font-weight: 900;
 }
 
 .aPostTitleText {
@@ -271,7 +265,7 @@ figcaption a {
   color: #083452;
   font-size: 2rem;
   margin: 0;
-  font-weight: 900;
+  position: relative;
 }
 
 /*Popular Post image section*/
@@ -293,6 +287,26 @@ figcaption a {
     background-repeat: no-repeat;
 }
 
+
+.postLink1 {
+  top: 20.2vw;
+  left: 3vw;
+}
+
+.postLink2 {
+  top: 20.2vw;
+  left: 3vw;
+}
+
+.postLink3 {
+  top: 20.2vw;
+  left: 3vw;
+}
+
+.postLink4 {
+  top: 20.2vw;
+  left: 3vw;
+}
 /*- - - - - - - Footer Section - - - - - - - - -*/
 
 .TIYlogo {
