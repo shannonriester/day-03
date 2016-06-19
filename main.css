@@ -238,19 +238,22 @@ figcaption a {
 /* - - - - - - -Popular Posts Section- - - - - - - - -*/
 .popularPosts {
   border-top: solid #E8ECEF .1rem;
+  margin: 0;
+  height: 33vw;
 }
 
 .popularHeading {
-    font-family: 'Oswald';
-    font-size: 4.78em;
-    font-weight: 500;
-    margin: 1.5% 0 0 -10%;
-    text-align: center;
+  font-family: 'Oswald';
+  font-size: 4em;
+  font-weight: 500;
+  margin: 1.5% 0 0 -10%;
+  text-align: center;
 }
 .ulPopularPosts {
   list-style-type: none;
-  margin: 0vw 0vw 0vw -3.23vw;
-  height: 28vw;
+padding: 0;
+height: 28vw;
+margin: 2vw 0 0 -1.5vw;
 }
 
 .ulPopularPosts ::after {
@@ -261,17 +264,17 @@ figcaption a {
 
 .liPopPosts {
   float: left;
-  width: 25vw;
-  height: 27.5vw;
-  margin: 2% 0% 0% 0%;
-  font-family: 'Oswald';
-  font-weight: 900;
+    width: 25vw;
+    height: 23vw;
+    padding: 0;
+    font-family: 'Oswald';
+    font-weight: 900;
 }
 
 .aPostTitleText {
   text-decoration: none;
   color: #083452;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0;
   position: relative;
 }
@@ -307,7 +310,7 @@ figcaption a {
 }
 
 .postLink3 {
-  top: 20.2vw;
+  top: 17vw;
   left: 3vw;
 }
 
@@ -316,7 +319,56 @@ figcaption a {
   left: 3vw;
 }
 /*- - - - - - - Footer Section - - - - - - - - -*/
+footer {
+  background: #083452;
+height: 10vw;
+margin: 0 8vw 0 -1vw;
+color: #FFF;
+font-size: .82rem;
+font-weight: 100;
+}
+
+.footerLogo {
+  float: left;
+  margin: 0 -23% 0 0;
+}
+
+.footerLogo a {
+  margin: 0 0 0 0;
+}
 
 .TIYlogo {
-    width: 10%;
+  width: 14%;
+  margin: 1.5% 0 0 29.5%;
+}
+
+.TIYcopy {
+  margin: 0% 0 0 0;
+  display: inline-block;
+  padding: 3% 0 0 0;
+}
+
+.footerNav {
+  float: right;
+  margin: 2% 15% 0 0;
+}
+
+.ulFooterNav {
+    list-style-type: none;
+    width: 100%;
+}
+
+.liFooterNav {
+  display: inline-block;
+  padding: 0 1.8%;
+  border-right: solid #FFF 1px;
+}
+
+.liFooterNav a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.liFooterNavLast {
+  border: none;
 }
