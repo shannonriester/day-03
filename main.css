@@ -5,30 +5,25 @@ body {
 
 /*linear-gradient creates opaque, blue, top-layer*/
 
-/*background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
-    background-size: 110vw;
-    width: 100vw;
-    height: 39.3vw;
-    margin: -1% 0% 0% -8%;
-    padding-right: 8vw;
-    background-repeat: no-repeat;*/
-
 .topHeader {
-  background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
-  background-size: 107vw;
-  width: 101vw;
-  height: 38.3vw;
-  margin: -1% -1% 0% -1%;
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
+    background-size: 107vw;
+    width: 101vw;
+    height: 40.6vw;
+    margin: -1% -1% 0% -1%;
 }
-
+.divLogoLeft {
+    float: left;
+    margin: 1% 10% 0 11%;
+}
 .headerNav {
-    margin: 0 0 0 -2%;
+    margin: .5% 13% 0 0;
+    float: right;
 }
 .headerLogo {
-  width: 3.2vw;
-  float: left;
-  opacity: 0.5;
-  margin: 1% 3% 0% 12%;
+    width: 3.5vw;
+    opacity: 0.5;
+    margin-top: 1%;
 }
 .headerLogoLink {
     text-decoration: none;
@@ -39,22 +34,22 @@ body {
     color: #083451;
 }
 .headerAboutLinkText {
-  float: left;
-  margin: 1.9% 0 0 -2%;
-  font-size: 1rem;
-  font-weight: 800;
-
+    display: block;
+    margin: -20% 0% 0 30%;
+    font-size: 1rem;
+    font-weight: 800;
+    width: 15vw;
 }
 .searchIcon {
     float: right;
     margin: 2% 0.5% 0% 5%;
 }
 .ulHeaderNav {
-  float: right;
-  font-family: 'Oswald';
-  margin: 1.5% 4.5% 0 0;
-  font-size: .9rem;
-  font-weight: 800;
+    float: right;
+    font-family: 'Oswald';
+    margin: 7.5% 0.5% 0 0;
+    font-size: .9rem;
+    font-weight: 800;
 }
 .liHeaderNav {
     list-style-type: none;
@@ -66,22 +61,24 @@ body {
 .searchIcon {}
 .hero {
     display: inline-block;
-    margin: 4.8% 0 0 -2%;
+    margin: 11% 0% 0% 15%;
     text-align: center;
+    padding: 0;
 }
 h1 {
-  font-size: 6.5rem;
-  color: #FFF;
-  font-weight: 500;
-  word-spacing: -8px;
-  letter-spacing: -1.5px;
-  margin: 16% 0% 9% -8%;
+    font-size: 6.5rem;
+    color: #FFF;
+    font-weight: 500;
+    word-spacing: -8px;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 0;
 }
 .hero p {
-  margin: -11.1% 8% 0 0%;
-  word-spacing: .5px;
-  font-weight: 400;
-  font-size: .95rem;
+    margin: -1.8% 0% 0 0%;
+    word-spacing: -0.5px;
+    font-weight: 400;
+    font-size: .95rem;
 }
 
 /*- - - - - -Main article starts here- - - - - - */
@@ -90,202 +87,204 @@ main {
     width: 50vw;
     display: inline-block;
 }
-
 article {
-  margin-left: 22.2%;
-  float: left;
+    margin: 2% 0% 0% 24%;
+    float: left;
 }
-
 .heading2 {
     display: inline-block;
-    /*margin-left: 188px;*/
 }
 .articleHeading {
-  font-family: 'Oswald';
-  margin: 12% 0% 0% 0.5%;
-  line-height: 4.4rem;
-  font-size: 3.8rem;
-  word-spacing: -0.2rem;
+    font-family: 'Oswald';
+    line-height: 4.4rem;
+    font-size: 3.8rem;
+    letter-spacing: 0.0195rem;
+    margin-bottom: 1%;
 }
-
 .articleContent {
-  width: 43.5vw;
+    width: 48vw;
+    line-height: 1.65rem;
 }
-
+.articleContent p {
+    margin: 3% 0 4% 0;
+    color: #5E686F;
+}
 blockquote {
-  color: #106DB3;
-font-family: 'Open Sans';
-font-size: 1.8rem;
-font-weight: 100;
-/* letter-spacing: -0.04rem; */
-word-spacing: -0.64rem;
-margin: 10.5% 0 0 3.5%;
+    color: #106DB3;
+    font-family: 'Open Sans';
+    font-size: 1.8rem;
+    font-weight: 100;
+    word-spacing: -0.5rem;
+    margin: 6% 0 7% 3.5%;
 }
 
 /*all profile images will have blue gradient as default look*/
 
 .publishInfo {
-  color: #A7B6C2;
-  display: inline-block;
-  margin: .5% 0% 0 .5%;
+    color: #A7B6C2;
+    margin: -1% 0% 2.5% 0%;
+    font-size: .8rem;
 }
 .publishInfo a {
-  color: #146FB3;
-  text-decoration: none;
-  margin: 0% 2% 0% 1%;
-  font-size: .8rem;
-  text-decoration: underline;
+    color: #146FB3;
+    text-decoration: none;
+    margin: 0% 2% 0% 1%;
 }
 .profilePic {
-  background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
-  background-repeat: no-repeat;
-  height: 1.5vw;
-  width: 1.5vw;
-  border-radius: 50%;
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
+    background-repeat: no-repeat;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
 }
-
 .ulBlogButtons {
     list-style-type: none;
-    margin: 4.5% 0 0 -4%;
-    padding-bottom: 9.5%;
+    margin: -1% 0% 0 -10%;
+    padding-bottom: 8%;
+    width: 40vw;
+    text-align: center;
+    font-size: 1vw;
 }
 .liBlogButtons {
     background: #A3B3BF;
     display: inline-block;
-    /* width: 153px; */
-    height: 2.5vw;
-    margin: 1% .5% 0% 0%;
-    padding-right: 1%;
+    margin: 0% 0% 0% 6%;
 }
 .iconButtons {
-  width: 1.3vw;
-  color: white;
-  background-color: #5e686f;
-  padding: 0.6em;
-  height: 1.5vw;
-  margin-left: -2%;
-  text-align: center;
+    color: white;
+    background-color: #5e686f;
+    padding: .7em .8em .8em .8em;
+    height: .8vw;
+    margin-left: -45%;
 }
 .iconLinks {
     color: #FFF;
     text-decoration: none;
-    padding: 0% 0% 0 2%;
 }
 
 /*- - - -Aside CSS starts here- - - - */
 
 aside {
-  float: right;
-  width: 42vw;
-  text-align: center;
-  margin: 6% 6% 0% 0%;
+    float: right;
+    width: 40vw;
+    text-align: center;
+    margin: 7% 0% 0% 0%;
 }
-
 .socialMediaInfo {
     color: #106DB3;
-    margin: 0% 0% 0 0%;
+    margin: -1% 11% 0 0%;
 }
-
 .bigProfilePic {
     background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
     background-repeat: no-repeat;
-    height: 16%;
-    width: 16%;
+    height: 18%;
+    width: 18%;
     border-radius: 50%;
-    /*margin-top: 21%;*/
+    margin: 0 0 1% 0;
 }
-
 h5 {
-  margin-top: 0.5%;
+    margin: 0;
+    font-size: 1rem;
 }
-
 .socialMediaLinks {
     list-style-type: none;
+    margin: -1px 5% 0 0;
 }
 .socialMediaLinks li {
     display: inline-block;
-    padding: 0 2%;
+    padding: 0 3% 0% 0%;
 }
 .socialMediaLinks a {
     color: #A7B6C2;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 /*- - - - - - - -Ad and Image Section - - - - - */
 
 figure {
-  font-family: 'Open Sans';
+    font-family: 'Open Sans';
     color: #A7B6C2;
     width: 36.5vw;
-    padding: 0;
-    margin: 0;
+    font-size: 1vw;
+    margin: 10% 0% 0 -1%;
+}
+.figcaption {
+    margin-right: 5vw;
 }
 .imgAd {
-  height: 20vw;
-width: 20vw;
+    height: 23vw;
+    width: 21.5vw;
+    padding-bottom: .5%;
+}
+figcaption {
+    padding: 0 0 1.2vw 15vw;
 }
 figcaption a {
     text-decoration: underline;
     color: #A7B6C2;
-    padding: 1% 0 0 62%;
 }
 .adSidebar {
     text-align: left;
-    width: 21vw;
+    width: 26vw;
     margin: 0 auto;
 }
-
-.h3Sidebar {
+.h4Sidebar {
     font-family: 'Oswald';
     color: #1771B5;
-    font-size: 22px;
-    margin-bottom: -3%;
+    font-size: 1.5vw;
+    font-weight: 100;
+    margin-bottom: 0;
+    word-spacing: -0.2vw;
+}
+.sidebarText {
+    font-size: 1.1vw;
+    width: 22vw;
+    margin: 2% 0 0 0;
+    line-height: 1.8vw;
+    color: #A3B3BF;
 }
 
 /* - - - - - - -Popular Posts Section- - - - - - - - -*/
-.popularPosts {
-  border-top: solid #E8ECEF .1rem;
-  height: 33vw;
-  margin-top: 1%;
-}
 
+.popularPosts {
+    border-top: solid #E8ECEF .1rem;
+    height: 33vw;
+    margin-top: 1%;
+}
 .popularHeading {
-  font-family: 'Oswald';
-  font-size: 4em;
-  font-weight: 500;
-  margin: 2% 0 0 0%;
-  text-align: center;
+    font-family: 'Oswald';
+    font-size: 4em;
+    font-weight: 500;
+    margin: 2% 0 0 0%;
+    text-align: center;
 }
 .ulPopularPosts {
-  list-style-type: none;
-height: 28vw;
-width: 106vw;
-margin: 2% 0% 0% -1%;
-padding: 0;
+    list-style-type: none;
+    height: 28vw;
+    width: 106vw;
+    margin: 2% 0% 0% -1%;
+    padding: 0;
 }
-
-.ulPopularPosts ::after {
+.ulPopularPosts::after {
     display: block;
     content: '';
     clear: both;
 }
-
 .liPopPosts {
-  float: left;
-width: 26vw;
-height: 23vw;
-padding: 0;
-font-family: 'Oswald';
-font-weight: 900;
+    float: left;
+    width: 26vw;
+    height: 25.5vw;
+    padding: 0;
+    font-family: 'Oswald';
+    font-weight: 900;
 }
-
 .aPostTitleText {
-  text-decoration: none;
-  color: #083452;
-  font-size: 1.8rem;
-  margin: 0;
-  position: relative;
+    text-decoration: none;
+    color: #083452;
+    font-size: 1.8rem;
+    margin: 0;
+    position: relative;
 }
 
 /*Popular Post image section*/
@@ -306,78 +305,68 @@ font-weight: 900;
     background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/nick-400x400.jpg');
     background-repeat: no-repeat;
 }
-
-
 .postLink1 {
-  top: 20.2vw;
-  left: 3vw;
+  top: 21.5vw;
+  left: 1.5vw;
 }
-
 .postLink2 {
-  top: 20.2vw;
-  left: 3vw;
+  top: 21.5vw;
+left: 1vw;
 }
-
 .postLink3 {
-  top: 17vw;
-  left: 3vw;
+  top: 18.5vw;
+left: 1vw;
 }
-
 .postLink4 {
-  top: 20.2vw;
-  left: 3vw;
+  top: 21.5vw;
+left: 1vw;
 }
+
 /*- - - - - - - Footer Section - - - - - - - - -*/
+
 footer {
-  background: #083452;
-height: 10vw;
-margin: 0 -1vw 0 -1vw;
-color: #FFF;
-font-size: .82rem;
-font-weight: 100;
+    background: #083452;
+    height: 10vw;
+    margin: 0 -1vw 0 -1vw;
+    color: #FFF;
+    font-size: .8rem;
+    font-weight: 100;
 }
-
 .footerLogo {
-  float: left;
-  margin: 0 -23% 0 0;
+    float: left;
+    margin: 0 -23% 0 0;
 }
-
 .footerLogo a {
-  margin: 0 0 0 0;
+    margin: 0 0 0 0;
 }
-
 .TIYlogo {
-  width: 14%;
-  margin: 1.5% 0 0 29.5%;
+    width: 14%;
+    margin: 1.5% 0 0 29.5%;
 }
-
 .TIYcopy {
-  margin: 0% 0 0 0;
-  display: inline-block;
-  padding: 3% 0 0 0;
+  margin: 0;
+display: inline-block;
+padding-top: 2.8%;
+word-spacing: .09vw;
 }
-
 .footerNav {
   float: right;
-  margin: 2% 15% 0 0;
+margin: 2% 12% 0 0;
+word-spacing: .09vw;
 }
-
 .ulFooterNav {
     list-style-type: none;
     width: 100%;
 }
-
 .liFooterNav {
-  display: inline-block;
-  padding: 0 1.8%;
-  border-right: solid #FFF 1px;
+    display: inline-block;
+    padding: 0 2% 0 1%;
+    border-right: solid #FFF 1px;
 }
-
 .liFooterNav a {
-  text-decoration: none;
-  color: #FFF;
+    text-decoration: none;
+    color: #FFF;
 }
-
 .liFooterNavLast {
-  border: none;
+    border: none;
 }
