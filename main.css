@@ -5,14 +5,22 @@ body {
 
 /*linear-gradient creates opaque, blue, top-layer*/
 
+/*background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
+    background-size: 110vw;
+    width: 100vw;
+    height: 39.3vw;
+    margin: -1% 0% 0% -8%;
+    padding-right: 8vw;
+    background-repeat: no-repeat;*/
+
 .topHeader {
   background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
-  background-size: 108vw;
-  width: 82.2vw;
-  height: 36.3vw;
-  margin: -9px 0 0 -10px;
-  padding-right: 8vw;
+  background-size: 107vw;
+  width: 101vw;
+  height: 38.3vw;
+  margin: -1% -1% 0% -1%;
 }
+
 .headerNav {
     margin: 0 0 0 -2%;
 }
@@ -238,22 +246,23 @@ figcaption a {
 /* - - - - - - -Popular Posts Section- - - - - - - - -*/
 .popularPosts {
   border-top: solid #E8ECEF .1rem;
-  margin: 0;
   height: 33vw;
+  margin-top: 1%;
 }
 
 .popularHeading {
   font-family: 'Oswald';
   font-size: 4em;
   font-weight: 500;
-  margin: 1.5% 0 0 -10%;
+  margin: 2% 0 0 0%;
   text-align: center;
 }
 .ulPopularPosts {
   list-style-type: none;
-padding: 0;
 height: 28vw;
-margin: 2vw 0 0 -1.5vw;
+width: 106vw;
+margin: 2% 0% 0% -1%;
+padding: 0;
 }
 
 .ulPopularPosts ::after {
@@ -264,11 +273,11 @@ margin: 2vw 0 0 -1.5vw;
 
 .liPopPosts {
   float: left;
-    width: 25vw;
-    height: 23vw;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 900;
+width: 26vw;
+height: 23vw;
+padding: 0;
+font-family: 'Oswald';
+font-weight: 900;
 }
 
 .aPostTitleText {
@@ -322,7 +331,7 @@ margin: 2vw 0 0 -1.5vw;
 footer {
   background: #083452;
 height: 10vw;
-margin: 0 8vw 0 -1vw;
+margin: 0 -1vw 0 -1vw;
 color: #FFF;
 font-size: .82rem;
 font-weight: 100;
