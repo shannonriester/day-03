@@ -1,29 +1,29 @@
 body {
     font-family: 'Open Sans', serif;
     color: #083451;
+    margin: 0;
 }
 
 /*linear-gradient creates opaque, blue, top-layer*/
 
 .topHeader {
     background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('http://i.imgur.com/KPlqgNY.jpg');
-    background-size: 107vw;
-    width: 101vw;
-    height: 40.6vw;
-    margin: -1% -1% 0% -1%;
+    background-repeat: no-repeat;
+    height: 40vw;
 }
+
 .divLogoLeft {
     float: left;
-    margin: 1% 10% 0 11%;
+    margin: .6rem 0rem 0rem 8.9rem;
+    width: 25%;
 }
 .headerNav {
-    margin: .5% 13% 0 0;
+    margin: 0.1rem 11.4rem 0 0;
     float: right;
 }
 .headerLogo {
-    width: 3.5vw;
-    opacity: 0.5;
-    margin-top: 1%;
+  width: 45px;
+opacity: 0.5
 }
 .headerLogoLink {
     text-decoration: none;
@@ -34,12 +34,36 @@ body {
     color: #083451;
 }
 .headerAboutLinkText {
-    display: block;
-    margin: -20% 0% 0 30%;
-    font-size: 1rem;
-    font-weight: 800;
-    width: 15vw;
+  display: block;
+  margin: -2.5rem 0 0rem 3.5rem;
+  font-size: 1rem;
+  font-weight: 800;
 }
+
+@media (max-width: 780px)
+{
+  .headerAboutLinkText
+  {
+      display: none;
+  }
+
+  .headerLogo{
+    display:block;
+    margin: 9vw 0rem 0rem 12vw;
+  }
+
+  .headerNav {
+    margin: -17vw 28vw 0 23vw;
+    padding: 0;
+  }
+
+  .hero {
+    margin: -6.7rem 0 0 0;
+  }
+
+
+}
+
 .searchIcon {
     float: right;
     margin: 2% 0.5% 0% 5%;
@@ -59,26 +83,27 @@ body {
     font-size: 1.2em;
 }
 .searchIcon {}
+
+
 .hero {
     display: inline-block;
-    margin: 11% 0% 0% 15%;
+    margin: 9.3rem 0rem 0 12rem;
     text-align: center;
-    padding: 0;
+
 }
 h1 {
-    font-size: 6.5rem;
+    font-size: 8vw;
     color: #FFF;
     font-weight: 500;
     word-spacing: -8px;
     letter-spacing: -2px;
     margin: 0;
-    padding: 0;
 }
 .hero p {
-    margin: -1.8% 0% 0 0%;
-    word-spacing: -0.5px;
-    font-weight: 400;
-    font-size: .95rem;
+  margin: -1.5rem 0rem 0rem 0rem;
+word-spacing: -0.5px;
+font-weight: 400;
+font-size: .95rem;
 }
 
 /*- - - - - -Main article starts here- - - - - - */
