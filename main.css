@@ -37,21 +37,21 @@ body {
     font-size: 1rem;
     font-weight: 800;
 }
-@media (max-width: 710px) {
-    .divLogoLeft {
-        display: none;
-        margin: 0;
-        padding: 0;
-    }
-    .headerNav {
-        margin: 0rem 11rem -5rem 8rem;
-        width: 100%;
-    }
-}
+
 .searchIcon {
     float: right;
     margin: .1rem .1rem 0 0.2rem;
+    /*width: 75px;*/
+   -webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+   transition: all .5s ease;
 }
+
+.searchIcon:focus {
+  background-color: white;
+
+}
+
 .ulHeaderNav {
     float: right;
     font-family: 'Oswald';
@@ -62,8 +62,8 @@ body {
 .liHeaderNav {
     list-style-type: none;
     display: inline;
-    padding: 0 5px;
-    margin-right: 2.2%;
+    padding: 0 .2rem;
+    margin-right: .2rem;
     font-size: 1.2em;
 }
 .hero {
@@ -142,17 +142,6 @@ blockquote {
     width: 2vw;
     border-radius: 50%;
   }
-
-/*.imgBlueBackground {
-  background: #106DB3;
-  width: 2vw;
-  height: 2vw;
-  border-radius: 50%;
-  box-sizing: content-box;
-  padding: 0;
-  margin: 0;
-  display: inline;
-}*/
 
 .ulBlogButtons {
     list-style-type: none;
@@ -401,4 +390,61 @@ word-spacing: .09vw;
 }
 .liFooterNavLast {
     border: none;
+}
+
+/*- - - - - -Psudo Classes - - - - - -*/
+a:hover {
+  font-weight: bold;
+}
+a:visited {
+  color: currentColor;
+}
+.liPopPosts:hover {
+  color: #FFF;
+}
+
+.post1:hover {
+  background: url('https://dl.dropboxusercontent.com/u/19411356/day-03/kitten-400x400.jpeg');
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+.post2:hover {
+  background: url('https://dl.dropboxusercontent.com/u/19411356/day-03/Beer%20Sampling.jpg');
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+.post3:hover {
+  background: url('https://dl.dropboxusercontent.com/u/19411356/day-03/bar-400x400.jpg');
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+.post4:hover {
+  background: url('https://dl.dropboxusercontent.com/u/19411356/day-03/nick-400x400.jpg');
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+
+.aPostTitleText:hover {
+    color: #FFF;
+}
+
+/*Queries */
+@media (max-width: 710px) {
+    .divLogoLeft {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    .headerNav {
+        margin: 0rem 11rem -5rem 8rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 910px) {
+  aside {
+    float: none;
+    width: 50vw;
+  }
 }
