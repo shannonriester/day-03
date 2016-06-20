@@ -111,7 +111,7 @@ article {
     line-height: 1.65rem;
 }
 .articleContent p {
-    margin: 3% 0 4% 0;
+    margin: 1.2rem 0 1.6rem 0;
     color: #5E686F;
 }
 blockquote {
@@ -127,7 +127,7 @@ blockquote {
 
 .publishInfo {
     color: #A7B6C2;
-    margin: -1% 0% 2.5% 0%;
+    margin: -0.5rem 0rem 1rem 0rem;
     font-size: .8rem;
 }
 .publishInfo a {
@@ -141,7 +141,19 @@ blockquote {
     height: 2vw;
     width: 2vw;
     border-radius: 50%;
-}
+  }
+
+/*.imgBlueBackground {
+  background: #106DB3;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}*/
+
 .ulBlogButtons {
     list-style-type: none;
     margin: -1% 0% 0 -10%;
@@ -179,13 +191,24 @@ blockquote {
         margin: -1% 11% 0 0%;
     }
     .bigProfilePic {
-        background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
-        background-repeat: no-repeat;
-        height: 18%;
-        width: 18%;
-        border-radius: 50%;
-        margin: 0 0 1% 0;
+    background: linear-gradient( rgba(73, 155, 234, 0.55), rgba(20, 104, 174, 0.6)), url('https://dl.dropboxusercontent.com/u/19411356/day-03/profilePic.jpg');
+    background-repeat: no-repeat;
+    height: 18%;
+    width: 18%;
+    border-radius: 50%;
+    margin: 0 0 1% 0;
     }
+
+    /*.imgBlueBig {
+      background: #106DB3;
+      width: 7vw;
+      height: 7vw;
+      border-radius: 50%;
+      padding: 0;
+      margin: 0;
+      display: inline;
+    }*/
+
     h5 {
         margin: 0;
         font-size: 1rem;
