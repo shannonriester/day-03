@@ -431,20 +431,34 @@ a:visited {
 
 /*Queries */
 @media (max-width: 710px) {
-    .divLogoLeft {
+    /*.divLogoLeft {
         display: none;
         margin: 0;
         padding: 0;
-    }
+    }*/
     .headerNav {
         margin: 0rem 11rem -5rem 8rem;
         width: 100%;
+    }
+
+    .headerLogoLink, .headerAboutLinkText {
+      display: block;
+      margin: 0;
+      padding: 2rem 3rem 0rem 3rem;
+    }
+
+    .headerAboutLinkText {
+      display: none;
+    }
+
+    .hero h1 {
+      padding: 2rem 0;
     }
 }
 
 @media (max-width: 910px) {
   aside {
     float: none;
-    width: 50vw;
+    width: 90vw;
   }
 }
